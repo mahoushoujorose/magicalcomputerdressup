@@ -1,0 +1,23 @@
+<head>
+	<title>~magical computer dressup~</title>
+	<script src="https://code.createjs.com/easeljs-0.8.1.min.js"></script>
+	<script src="js/mcd.js"></script>
+	<style>
+	canvas, img {
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+	}
+	canvas#screen {
+		width: 786px;
+		height: 512px;
+	}
+	</style>
+</head>
+<body onload="init()">
+	<h1>magical computer dressup</h1>
+	<canvas id="screen" width=384 height=256 style="background-color:#fbe"></canvas>
+</body>
